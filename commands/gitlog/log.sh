@@ -1,0 +1,1 @@
+TortoiseGitProc /command:log /path:$SMO_HOME &

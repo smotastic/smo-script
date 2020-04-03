@@ -1,3 +1,4 @@
-const diff = require('./diff');
+const diff = require('./diff/Diff');
+const gitlog = require('./gitlog/Gitlog');
 
-module.exports = { diff }
+module.exports = { diff, gitlog }
