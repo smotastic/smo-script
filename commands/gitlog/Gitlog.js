@@ -1,8 +1,8 @@
 const execScript = require('../../modules/execScript');
 
-const log = (from, to) => {
+const log = (branch) => {
     console.log(`Starting log in ${process.env.SMO_HOME}`.green);
-    execScript(__dirname, "log.sh");
+    execScript(__dirname, "log.sh", [branch]);
 }
 
 module.exports = log;
